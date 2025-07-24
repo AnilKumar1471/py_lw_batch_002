@@ -1,0 +1,6 @@
+name =  input("Enter employee name :")
+age = int(input("Enter employee age :"))
+salary = float(input("Enter employee salary:"))
+print("name:", name)
+print("age:", age )
+print("salary:", salary)
