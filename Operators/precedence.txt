@@ -1,0 +1,19 @@
+| Precedence | Operators                                                        | Description                                      | Associativity     |                   |
+| ---------- | ---------------------------------------------------------------- | ------------------------------------------------ | ----------------- | ----------------- |
+| 1          | `()`                                                             | Parentheses (expression grouping)                | **N/A**           |                   |
+| 2          | `x[index]`, `x(attr)`, `x.attr`, `x(...)`                        | Subscription, function call, attribute reference | **Left to right** |                   |
+| 3          | `**`                                                             | Exponentiation                                   | **Right to left** |                   |
+| 4          | `+x`, `-x`, `~x`                                                 | Unary plus, minus, bitwise NOT                   | **Right to left** |                   |
+| 5          | `*`, `/`, `//`, `%`                                              | Multiplication, division, floor division, modulo | **Left to right** |                   |
+| 6          | `+`, `-`                                                         | Addition, subtraction                            | **Left to right** |                   |
+| 7          | `<<`, `>>`                                                       | Bitwise shift operators                          | **Left to right** |                   |
+| 8          | `&`                                                              | Bitwise AND                                      | **Left to right** |                   |
+| 9          | `^`                                                              | Bitwise XOR                                      | **Left to right** |                   |
+| 10         | \`                                                               | \`                                               | Bitwise OR        | **Left to right** |
+| 11         | `in`, `not in`, `is`, `is not`, `<`, `<=`, `>`, `>=`, `!=`, `==` | Comparisons, identity, membership                | **Left to right** |                   |
+| 12         | `not`                                                            | Boolean NOT                                      | **Right to left** |                   |
+| 13         | `and`                                                            | Boolean AND                                      | **Left to right** |                   |
+| 14         | `or`                                                             | Boolean OR                                       | **Left to right** |                   |
+| 15         | `if – else`                                                      | Conditional expression                           | **Right to left** |                   |
+| 16         | `lambda`                                                         | Lambda expression                                | **Right to left** |                   |
+| 17         | `:=`                                                             | Assignment expression (walrus operator)          | **Right to left** |                   |
